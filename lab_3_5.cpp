@@ -19,6 +19,7 @@ int main() {
   	cast2 = (float) 'T';
 
     // กำหนดค่า cast1 = cast2 ต้องแปลงชนิดตัวแปรอย่างไร
+    cast1 = (int) cast2;
 
   return 0;
 }
